@@ -1,4 +1,4 @@
-# Assignment2
+# Assignment 2
 
 A molecule is made of two or more atoms, where each atom can occur more than once. An atom is represented by an atomic symbol consisting of a single uppercase letter or an uppercase letter followed by a lowercase letter (e.g. H, O, Fl, Na).
 
