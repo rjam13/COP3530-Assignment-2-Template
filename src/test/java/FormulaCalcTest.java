@@ -1,5 +1,5 @@
-import org.module2.FormulaCalc;
 import org.junit.jupiter.api.Test;
+import org.assignment2.FormulaCalc;
 import org.junit.jupiter.api.Assertions;
 
 public class FormulaCalcTest {

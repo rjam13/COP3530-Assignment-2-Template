@@ -1,4 +1,4 @@
-# Assignment2
+# Assignment 2
 
 A molecule is made of two or more atoms, where each atom can occur more than once. An atom is represented by an atomic symbol consisting of a single uppercase letter or an uppercase letter followed by a lowercase letter (e.g. H, O, Fl, Na).
 
@@ -14,7 +14,7 @@ A molecular formula is a non-empty sequence of atomic symbols (e.g. KBr, CO, LiC
 
 ## Assignment
 
-1) Modify the Java program named FormulaCalc.java that has a method that takes a string representing a valid molecular formula and computes and returns the total number of protons in the molecule. Your method should use a stack to keep track of partial results as you encounter subexpression in the chemical formula.
+1) Modify the `Algorithm` method in the Java program named FormulaCalc.java found in **src/main/java/org/assignment2**. It takes a string representing a valid molecular formula and computes and returns the total number of protons in the molecule. The method should use a stack to keep track of partial results as you encounter subexpression in the chemical formula.
 
     * You may assume that the atoms in the formula all have atomic numbers no greater than 54 and appear in the truncated periodic table shown below. Each box shows the atomic symbol along with its atomic number.
 
@@ -22,20 +22,19 @@ A molecular formula is a non-empty sequence of atomic symbols (e.g. KBr, CO, LiC
     * The formula can potentially have any number of layers of parentheses.
     * You may assume that if an integer is given in the formula it will be in a valid location and its value will be between 2 and 99, inclusive.
     * You may assume that the given formula is valid, including only atoms shown above and proper layering of parentheses.
-    * Your class should also have a main method that tests your formula computation method. See the Testing section for the format for the input and output for testing.
 
 ## Testing
 
-- Testing can be done through Maven with the command, <br> 
+* Testing can be done through Maven with the command, <br> 
 `mvn test` <br>
-- To run more specific tests, run the command <br> 
+* To run more specific tests, run the command <br> 
 `mvn -Dtest=FormulaCalcTest#TESTCASEHERE test` <br>
 where `TESTCASEHERE` is the test case you want to run. These test cases can be found in **src/test/java/FormulaCalcTest** <br>
-  - For example,  `mvn -Dtest=FormulaCalcTest#test_with_H test` runs your algorithm against the input string "H" where the output expects an integer 1.
+  * For example,  `mvn -Dtest=FormulaCalcTest#test_with_H test` runs your algorithm against the input string "H" where it expects an integer 1 as the output.
 
 The results can be found in the command line or in **target/surefire-reports/FormulaCalcTest.txt** after execution.
 
-**Grading will be primary be based on these test cases.**
+**Part of grading will be these test cases.**
 
 Alternatively,
 

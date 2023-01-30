@@ -1,4 +1,4 @@
-package org.module2;
+package org.assignment2;
 
 public class FormulaCalc {
 
@@ -7,7 +7,7 @@ public class FormulaCalc {
 
     }
     /**
-     * Algorithm 2
+     * Algorithm
      * @param a Molecular formula
      * @return Total number of protons
      */
